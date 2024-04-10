@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+}
+
+.joc-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.joc-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.player-text-input {
+    background-color: rgb(179, 249, 249);
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    border: 3 px solid black;
+}
+
+.joc-button {
+    background-color: transparent;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    width: 228px;
+}
+
+.joc-operator{
+    background-color: transparent;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    width: 228px;
+
+}
+
+.calculator-result {
+    font-size: 18px;
+    text-align: center;
+}
